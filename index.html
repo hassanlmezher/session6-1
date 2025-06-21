@@ -4,8 +4,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ex-1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header1{
+            border-bottom: 3px solid rgb(196, 196, 196);
+            display: flex;
+            justify-content: space-between;
+            height: 70px;
+            padding: 0px 10px 0px;
+            align-items: center;
+        }
+        .header1div1{
+            display: flex;
+            gap: 15px;
+        }
+        .header1div2{
+            padding-right: 12px;
+        }
+        .header1p1{
+            font-size: 25px;
+        }
+        .header1input1{
+            height: 30px;
+            border-radius: 30px;
+            width: 300px;
+            background-color: rgb(236, 236, 236);
+            border: none;
+        }
+        .section1{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .nav{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+            width: 650px;
+            
+            
+        }
+        .inerbutton{
+            font-size: 12px;
+            border: none;
+            color: grey;
+            background-color: transparent;
+            padding-bottom: 10px;
+        }
+        .inerbutton:hover{
+            color: black;
+            border-bottom: 2px solid grey;
+            transform: scale(1.05);
+            transition: all 0.2s ease;
+        }
+        .div11{
+            display: flex;
+            
+            align-items: center;
+            margin-top:30px;
+           
+            gap: 5px;
+            
+        }
+        .div1img1{
+            width: 15px;
+        }
+        .div1img2{
+            width: 10px;
+        }
+        .div1p1{
+            font-size: 10px;
+        }
+        .div1{
+            display: flex;
+            
+            margin-left: 230px;
+        }
+        .underline{
+            border-bottom: 2px solid lightgrey;
+            gap: 9px;
+            width: 420px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .iner11{
+            width: 72%;
+        }
+        .div12h1{
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .div12{
+            margin-top: 10px;
+        }
+        .div13p1{
+            font-size: 11px;
+            color: grey;
+        }
+        .div13{
+            margin-top: 7px;
+        }
+        .img1{
+            width: 9px;
+        }
+        .div14{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .div14iner1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .div14p1{
+            font-size: 11px;
+        }
+        .ineriner1{
+            display: flex;
+            gap: 3px;
+        }
+        .side1{
+            width: 110px;
+        }
+        .iner12{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            padding-left: 30px;
+            padding-top: 25px;
+        }
+        .div1{
+            border-bottom: 2px solid lightgrey;
+            height: 150px;
+        }
+        .div14iner2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
 </head>
 <body>
+    <header class="header1">
+        <div class="header1div1">
+            <strong class="header1p1">Medium</strong>
+            <input class="header1input1"  type="text" placeholder="     ⌕ Search"/>
+        </div>
+        <div class="header1div2">
+            <p class="header1p2">📄 Write</p>
+        </div>
+    </header>
+    <section class="section1">
+        <div class="nav">
+            <div class="underline">
+                <button class="inerbutton">+</button>
+                <button class="inerbutton">For you</button>
+                <button class="inerbutton">Following</button>
+                <button class="inerbutton">Cryptocurrency</button>
+                <button class="inerbutton inerbuttonmoney">Money</button>
+                <button class="inerbutton">Visual Design</button>
+                <button class="inerbutton">UX</button>
+                <button class="inerbutton">Marketing</button>
+            </div>
+        </div>
+        <div class="div1">
+            <div class="iner11">
+                <div class="div11"><img class="div1img1" src="person1.png"/><p class="div1p1">Matej Latin</p><img class="div1img2" src="verified.png"/><p class="div1p1">in</p><strong class="div1p1">UX Collective</strong></div>
+                <div class="div12"><strong class="div12h1">90% of designers are unhirable?</strong></div>
+                <div class="div13"><p class="div13p1">Or why your cookie-cutter portfolio doesn't cut it and how to fix it</p></div>
+                <div class="div14">
+                    <div class="div14iner1">
+                        <p class="div14p1">Mar6</p>
+                        <div class="ineriner1"><img class="img1" src="wavinghand.png" alt=""/><p class="div14p1">8.1K</p></div>
+                        <img class="img1" src="message.png" alt=""/>
+                    </div>
+                    <div class="div14iner2">
+                       <img class="img1" src="stop.png" alt=""/>
+                        <img class="img1" src="saved.png" alt=""/>
+                        <img class="img1" src="dots.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="iner12">
+                <img class="side1" src="side1.png" alt="">
+            </div>
+        </div>
+
+        <div class="div1">
+            <div class="iner11">
+                <div class="div11"><img class="div1img1" src="person1.png"/><p class="div1p1">Fellcia Sullivan</p><img class="div1img2" src="verified.png"/></div>
+                <div class="div12"><strong class="div12h1">90% of designers are unhirable?</strong></div>
+                <div class="div13"><p class="div13p1">Or why your cookie-cutter portfolio doesn't cut it and how to fix it</p></div>
+                <div class="div14">
+                    <div class="div14iner1">
+                        <p class="div14p1">Mar6</p>
+                        <div class="ineriner1"><img class="img1" src="wavinghand.png" alt=""/><p class="div14p1">8.1K</p></div>
+                        <img class="img1" src="message.png" alt=""/>
+                    </div>
+                    <div class="div14iner2">
+                       <img class="img1" src="stop.png" alt=""/>
+                        <img class="img1" src="saved.png" alt=""/>
+                        <img class="img1" src="dots.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="iner12">
+                <img class="side1" src="side1.png" alt="">
+            </div>
+        </div>
+
+        <div class="div1">
+            <div class="iner11">
+                <div class="div11"><img class="div1img1" src="person1.png"/><p class="div1p1">Matej Latin</p><img class="div1img2" src="verified.png"/><p class="div1p1">in</p><strong class="div1p1">UX Collective</strong></div>
+                <div class="div12"><strong class="div12h1">90% of designers are unhirable?</strong></div>
+                <div class="div13"><p class="div13p1">Or why your cookie-cutter portfolio doesn't cut it and how to fix it</p></div>
+                <div class="div14">
+                    <div class="div14iner1">
+                        <p class="div14p1">Mar6</p>
+                        <div class="ineriner1"><img class="img1" src="wavinghand.png" alt=""/><p class="div14p1">8.1K</p></div>
+                        <img class="img1" src="message.png" alt=""/>
+                    </div>
+                    <div class="div14iner2">
+                       <img class="img1" src="stop.png" alt=""/>
+                        <img class="img1" src="saved.png" alt=""/>
+                        <img class="img1" src="dots.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="iner12">
+                <img class="side1" src="side1.png" alt="">
+            </div>
+        </div>
+
+        <div class="div1">
+            <div class="iner11">
+                <div class="div11"><img class="div1img1" src="person1.png"/><p class="div1p1">Matej Latin</p><img class="div1img2" src="verified.png"/><p class="div1p1">in</p><strong class="div1p1">UX Collective</strong></div>
+                <div class="div12"><strong class="div12h1">90% of designers are unhirable?</strong></div>
+                <div class="div13"><p class="div13p1">Or why your cookie-cutter portfolio doesn't cut it and how to fix it</p></div>
+                <div class="div14">
+                    <div class="div14iner1">
+                        <p class="div14p1">Mar6</p>
+                        <div class="ineriner1"><img class="img1" src="wavinghand.png" alt=""/><p class="div14p1">8.1K</p></div>
+                        <img class="img1" src="message.png" alt=""/>
+                    </div>
+                    <div class="div14iner2">
+                       <img class="img1" src="stop.png" alt=""/>
+                        <img class="img1" src="saved.png" alt=""/>
+                        <img class="img1" src="dots.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="iner12">
+                <img class="side1" src="side1.png" alt="">
+            </div>
+        </div>
+
+        <div class="div1">
+            <div class="iner11">
+                <div class="div11"><img class="div1img1" src="person1.png"/><p class="div1p1">Matej Latin</p><img class="div1img2" src="verified.png"/><p class="div1p1">in</p><strong class="div1p1">UX Collective</strong></div>
+                <div class="div12"><strong class="div12h1">90% of designers are unhirable?</strong></div>
+                <div class="div13"><p class="div13p1">Or why your cookie-cutter portfolio doesn't cut it and how to fix it</p></div>
+                <div class="div14">
+                    <div class="div14iner1">
+                        <p class="div14p1">Mar6</p>
+                        <div class="ineriner1"><img class="img1" src="wavinghand.png" alt=""/><p class="div14p1">8.1K</p></div>
+                        <img class="img1" src="message.png" alt=""/>
+                    </div>
+                    <div class="div14iner2">
+                       <img class="img1" src="stop.png" alt=""/>
+                        <img class="img1" src="saved.png" alt=""/>
+                        <img class="img1" src="dots.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="iner12">
+                <img class="side1" src="side1.png" alt="">
+            </div>
+        </div>
+    </section>
     
 </body> 
 </html>
